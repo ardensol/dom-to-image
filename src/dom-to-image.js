@@ -475,6 +475,7 @@
                 request.ontimeout = timeout;
                 request.responseType = 'blob';
                 request.timeout = TIMEOUT;
+                request.origin = 'Anonymous';
                 request.open('GET', url, true);
                 request.send();
 

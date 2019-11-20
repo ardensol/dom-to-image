@@ -1,3 +1,6 @@
 *.iml
 .tags
 .tags*
+.idea/**/*
+.idea
+.idea/*
